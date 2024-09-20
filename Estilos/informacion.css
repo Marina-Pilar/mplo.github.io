@@ -6,12 +6,12 @@
 */
 
 article.info-card{
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
     color: #C4C4C4;
 }
 
 article.info-card:hover{
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
     color: #000;
 }
 
