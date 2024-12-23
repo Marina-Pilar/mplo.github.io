@@ -1,54 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Theme Made By www.w3schools.com - No Copyright -->
-  <title>Presentation</title>
+  <title>Presentación Personal</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Página de presentación personal de Marina del Pilar López Oliva, estudiante de ASIR y entusiasta de la programación y videojuegos.">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <style>
-  body {
-    font: 20px Montserrat, sans-serif;
-    line-height: 1.8;
-    color: #0a3764;
-  }
-  p {font-size: 16px;}
-  .margin {margin-bottom: 45px;}
-  .bg-1 { 
-    background-color: #e56a6a; /* Rose */
-    color: #ee4c4c;
-  }
-  .bg-2 { 
-    background-color: #413636; /* Dark Red */
-    color: #ee4c4c;
-  }
-  .bg-3 { 
-    background-color: #ffffff; /* White */
-    color: #7f1d1d;
-  }
-  .bg-4 { 
-    background-color: #2f2f2f; /* Black Gray */
-    color: #ee4c4c;
-  }
-  .container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
-  }
-  .navbar {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border: 0;
-    border-radius: 0;
-    margin-bottom: 0;
-    font-size: 12px;
-    letter-spacing: 5px;
-  }
-  .navbar-nav  li a:hover {
-    color: #286e60 !important;
-  }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      line-height: 1.8;
+      color: #333333;
+    }
+    p {
+      font-size: 16px;
+      font-family: 'Roboto', sans-serif;
+    }
+    .margin {
+      margin-bottom: 45px;
+    }
+    .bg-1 {
+      background-color: #f7c6c6;
+      color: #4a4a4a;
+    }
+    .bg-2 {
+      background-color: #413636;
+      color: #ffffff;
+    }
+    .bg-3 {
+      background-color: #ffffff;
+      color: #333333;
+    }
+    .bg-4 {
+      background-color: #2f2f2f;
+      color: #cccccc;
+    }
+    .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+    }
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color: #413636;
+      color: #ffffff;
+    }
+    .navbar-nav li a {
+      color: #ffffff !important;
+    }
+    .navbar-nav li a:hover {
+      color: #f7c6c6 !important;
+    }
+    .btn-custom {
+      background-color: #f7c6c6;
+      color: #413636;
+      border: none;
+    }
+    .btn-custom:hover {
+      background-color: #d68a8a;
+      color: #ffffff;
+    }
   </style>
 </head>
 <body>
@@ -57,61 +71,61 @@
 <nav class="navbar navbar-default">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarContent">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
+        <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Me</a>
+      <a class="navbar-brand" href="#">Marina</a>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
+    <div class="collapse navbar-collapse" id="navbarContent">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">QUIEN</a></li>
-        <li><a href="#">QUE</a></li>
-        <li><a href="#">DONDE</a></li>
+        <li><a href="#who">¿Quién?</a></li>
+        <li><a href="#what">¿Qué?</a></li>
+        <li><a href="#where">¿Dónde?</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
-<!-- First Container -->
-<div class="container-fluid bg-1 text-center">
+<!-- First Section -->
+<div class="container-fluid bg-1 text-center" id="who">
   <h3 class="margin">¿Quién soy?</h3>
-  <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.linkedin.com%2Fpub%2Fdir%2FPilar%2FLopez%2BOliva&psig=AOvVaw1GVIaz4oV0ByhEfri_7IMu&ust=1735040466008000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNiNksjnvYoDFQAAAAAdAAAAABAE" style="display:inline" alt="Me" width="350" height="350">
+  <img src="https://via.placeholder.com/350" alt="Foto de Marina" class="img-circle" width="350" height="350">
   <h3>Soy Marina del Pilar López Oliva.</h3>
 </div>
 
-<!-- Second Container -->
-<div class="container-fluid bg-2 text-center">
+<!-- Second Section -->
+<div class="container-fluid bg-2 text-center" id="what">
   <h3 class="margin">¿Qué soy?</h3>
-  <p>Soy estudiante de 2º ASIR semipresencial. Tengo el ciclo suprior de A3D. Y me gustaría estudiar ciberseguridad. Me gusta la música, la programación y los videojuegos. He programado algunos videojuegos y, actualmente, estoy creando uno mío propio.</p>
-  <a href="#" class="btn btn-default btn-lg">
-    <span class="glyphicon glyphicon-search"></span> Search
+  <p>Soy estudiante de 2º ASIR semipresencial. También tengo un ciclo superior en A3D y planeo estudiar ciberseguridad. Me apasiona la música, la programación y los videojuegos. He desarrollado algunos videojuegos y actualmente estoy trabajando en uno propio.</p>
+  <a href="#" class="btn btn-custom btn-lg" aria-label="Saber más sobre mis proyectos">
+    <span class="glyphicon glyphicon-search"></span> Ver más
   </a>
 </div>
 
-<!-- Third Container (Grid) -->
-<div class="container-fluid bg-3 text-center">    
-  <h3 class="margin">¿Dónde puedes encontrarme?</h3><br>
+<!-- Third Section -->
+<div class="container-fluid bg-3 text-center" id="where">
+  <h3 class="margin">¿Dónde puedes encontrarme?</h3>
   <div class="row">
     <div class="col-sm-4">
-      <p>Vivo en un pueblo llamado Castellnovo, se encuentra en Castellón, España.</p>
-      <img src="https://appassets.mvtdev.com/map/41/c/2821/146428.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+      <p>Vivo en un pueblo llamado Castellnovo, ubicado en Castellón, España.</p>
+      <img src="https://via.placeholder.com/300" class="img-responsive margin" style="width:100%" alt="Mapa de Castellnovo">
     </div>
-    <div class="col-sm-4"> 
-      <p>Para contactarme puedes usar mi número de teléfono: +34 681 65 10 16, o por mi email: marlopoli@alu.edu.gva.es.</p>
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ3b04LXYIRXnJVbxMUu9fPcfeNg8eaVyaqA&s" class="img-responsive margin" style="width:100%" alt="Image">
+    <div class="col-sm-4">
+      <p>Puedes contactarme al número +34 681 65 10 16 o por correo electrónico: <a href="mailto:marlopoli@alu.edu.gva.es">marlopoli@alu.edu.gva.es</a>.</p>
+      <img src="https://via.placeholder.com/300" class="img-responsive margin" style="width:100%" alt="Teléfono y correo">
     </div>
-    <div class="col-sm-4"> 
-      <p>Para saber más de mí, puedes visitar mi <a href="https://sites.google.com/view/marinadelpilarlpezoliva/home"> página web. </a> En esta paǵina encontrarás trabajos hechos por mi.</p>
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl-f1tB8HxjPDmGDgage7ZveeAIRYbKpBe8w&s" class="img-responsive margin" style="width:100%" alt="Image">
+    <div class="col-sm-4">
+      <p>Para saber más sobre mí, visita mi <a href="https://sites.google.com/view/marinadelpilarlpezoliva/home" target="_blank">página web</a>, donde encontrarás mis trabajos y proyectos.</p>
+      <img src="https://via.placeholder.com/300" class="img-responsive margin" style="width:100%" alt="Enlace a página web">
     </div>
   </div>
 </div>
 
 <!-- Footer -->
 <footer class="container-fluid bg-4 text-center">
-  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p> 
+  <p>Diseño inspirado por <a href="https://www.w3schools.com" target="_blank">www.w3schools.com</a>. Personalizado por Marina del Pilar López Oliva.</p>
 </footer>
 
 </body>
